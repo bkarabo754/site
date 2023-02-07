@@ -4,6 +4,8 @@ import {FaGithub, FaYoutube, FaDribble, FaLinkedin, FaMedium} from 'react-icons/
 import {TypeAnimation} from 'react-type-animation'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
+import BackgroundCircle from './BackgroundCircle';
+
 
 const Banner = () => {
   return (
@@ -16,7 +18,7 @@ const Banner = () => {
             initial={'hidden'}
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}}
-            className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>Bongani <span>Masango</span>
+            className='text-[55px] font-semibold leading-[0.8] lg:text-[90px]'>Hi <span>all, I'm Bongani 👋</span>
           </motion.h1>
           <motion.div
             variants={fadeIn('up', 0.4)}
@@ -24,15 +26,15 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
             className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
-            <span className=" text-white mr-4">I am a</span>
+            <span className=" text-white mr-4">I am </span>
             <TypeAnimation 
               sequence={[
-              'Developer',
+              'a Developer',
               2000,
-              'Guy-who-loves-Coffee.js',
-              2000,
-              '<ButLovesToCodeMore />',
-              2000,
+              // 'a Guy-who-loves-Coffee.js',
+              // 2000,
+              // '<ButLovesToCodeMore />',
+              // 2000,
             ]}
               speed={50}
               className="text-accent"
@@ -77,7 +79,8 @@ const Banner = () => {
           initial={'hidden'}
           whileInView={'show'}
           className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-          <img src={Images} alt="" />
+          <BackgroundCircle />
+          
         </motion.div>
       </div>
     </div>  
