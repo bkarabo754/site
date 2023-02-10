@@ -15,10 +15,12 @@ const ExperienceCard = () => {
         <h4 className='text-4xl font-light'>Front End Developer</h4>
         <h3 className='font-bold text-2xl mt-1'>Command Quality</h3>
         <div className='flex space-x-2 my-2'>
-            <img className="h-10 w-10 rounded-full" src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
-            <img className="h-10 w-10 rounded-full" src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
-            <img className="h-10 w-10 rounded-full" src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
-            <img className="h-10 w-10 rounded-full" src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png" alt="" />
+            <img className="h-10 w-10 rounded-full" src="https://cdn.icon-icons.com/icons2/2429/PNG/96/github_logo_icon_147285.png" alt="" />
+            <img className="h-10 w-10 rounded-full" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png" alt="" />
+            <img className="h-10 w-10 rounded-full" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png" alt="" />
+            <img className="h-10 w-10 rounded-full" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png" alt="" />
+            <img className="h-10 w-10 rounded-full" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_logo_icon_146458.png" alt="" />
+            <img className="h-10 w-10 rounded-full" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" alt="" />
         </div>
         <p className='uppercase py-5 text-gray-300'>Wed May 30 2019 - Present</p>
 
