@@ -26,8 +26,8 @@ const Skills = () => {
         <Skill />
         <Skill />
         <Skill />
-        <Skill />
-        <Skill />
+        
+        
       </div>
     </motion.section>
   )
