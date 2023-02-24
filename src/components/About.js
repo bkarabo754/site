@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants';
+import Image from '../assets/manOnTable.svg';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -17,7 +18,9 @@ const About = () => {
           initial='hidden'
           whileInView={"show"}
           viewport={{once: false, amount: 0.3}}
-          className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></motion.div>
+          className='flex-1 bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
+            <img src={Image} alt="pic" />
+          </motion.div>
         <motion.div 
           variants={fadeIn('left', 0.5)}
           initial='hidden'
