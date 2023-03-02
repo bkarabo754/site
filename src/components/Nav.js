@@ -17,9 +17,6 @@ const Nav = () => {
         <Link to="services" activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
           <BsClipboardData />
         </Link>
-        <Link to="skills" activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
-          <BsWrench />
-        </Link>
         <Link to="work" activeClass="active" smooth={true} spy={true} className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center">
           <BsBriefcase />
         </Link>
